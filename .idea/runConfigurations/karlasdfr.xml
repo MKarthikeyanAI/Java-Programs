@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="karlasdfr" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="karlasdfr" />
+    <module name="Java Programs" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
