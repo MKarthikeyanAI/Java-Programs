@@ -49,6 +49,7 @@ public class reverseofsinglelinkedlist {
     }
 
     public static void main(String[] args) {
+        //short form
         reverseofsinglelinkedlist o = new reverseofsinglelinkedlist();
         LinkedList list = o.new LinkedList();
         list.insert(5);
