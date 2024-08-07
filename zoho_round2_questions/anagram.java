@@ -2,7 +2,7 @@ package zoho_round2_questions;
 
 /*
 3. It's about anagram.i/p was array of strings.
-and a word was given to fin whether it has anagram in given array. l/p catch, got, tiger, mat, eat, Pat, tap, tea.
+and a word was given to find whether it has anagram in given array. l/p catch, got, tiger, mat, eat, Pat, tap, tea.
  */
 import java.util.*;
 public class anagram {

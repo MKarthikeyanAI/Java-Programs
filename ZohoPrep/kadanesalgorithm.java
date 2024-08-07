@@ -3,6 +3,23 @@ import java.util.*;
 
 
 public class kadanesalgorithm {
+    public static int max(int[] arr,int n){
+        int sum=0;
+        int max = Integer.MIN_VALUE;
+        //traversing the arr from the start to the end
+        for(int i=0;i<n;i++){
+            sum+=arr[i];
+
+            if(sum>max){
+                max=sum;
+            }
+            if(sum<0){
+                sum=0;
+            }
+        }
+        return sum;
+    }
+
     public static long maxSubarraySum(int[] arr,int n){
         long maxi = Long.MIN_VALUE;
         long sum = 0;
@@ -48,6 +65,10 @@ public class kadanesalgorithm {
         int n = arr.length;
         long maxSum = maxSubarraySum(arr, n);
         System.out.println();
+        int[] arr2 = { -2, 1, -3, 4, -1, 2, 1, -5, 4};
         System.out.println("The maximum subarray sum is: " + maxSum);
+        int result = max(arr, n);
+        System.out.println("The maximum subarray sum is: " + result);
+
     }
 }

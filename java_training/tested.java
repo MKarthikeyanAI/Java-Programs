@@ -1,27 +1,26 @@
 package java_training;
-import java.util.*;
+
 public class tested {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
-        ArrayList<Integer> al=new ArrayList<Integer>();
-        System.out.println("Initial list of elements: "+al);
-        //Adding elements to the end of the list
-        al.add(11);
-        al.add(12);
-        al.add(13);
+        String a = "amazon";
+        String b = "noamaz";
 
-        ArrayList<Integer> al1=new ArrayList<Integer>();
+        if (a.length() != b.length()) {
+            System.out.println("false");
+        }
 
-        al1.add(10);
-        al1.add(11);
-        al1.add(12);
+        if (a.length() < 2) {
+            System.out.println("false");
+        }
 
-//        al.addAll(al1);
-        al.retainAll(al1);
-        System.out.println("After invoking addAll(Collection<? extends E> c) method: "+al);
+        String leftRotated = a.substring(2) + a.substring(0, 2);
 
+        System.out.println(leftRotated);
 
+        String rightRotated = a.substring(a.length() - 2) + a.substring(0, a.length() - 2);
 
+        System.out.println(rightRotated);
 
     }
 }

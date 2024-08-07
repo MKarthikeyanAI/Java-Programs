@@ -1,0 +1,14 @@
+* Packages: It is like the folder(Hierarchical Method).
+
+* using import statement to access the function from the other package to the current file.
+
+* what is meant by static variable:
+
+when a member is declared as static it can be accessed before any of the object of the class has been created.
+Static variable does not depend on object or without reference to an object.
+
+with static variable we can run the program without creating the object of that class.
+
+Static belongs to the class name and does not belong to the object.
+
+
