@@ -34,7 +34,7 @@ public class minimum_swaps_required_to_sort {
 
     public static void swap(Pair[] pairs, int i, int j) {
         Pair temp = pairs[i];
-        pairs[i] = pairs[j];
+         pairs[i] = pairs[j];
         pairs[j] = temp;
     }
 
